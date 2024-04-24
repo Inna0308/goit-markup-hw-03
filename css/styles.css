@@ -142,13 +142,8 @@ body {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.page-hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-title {
@@ -180,6 +175,7 @@ body {
   padding-right: 32px;
   border-radius: 4px;
   border: none;
+  min-width: 169px;
 }
 
 .hero-button:hover,
@@ -196,7 +192,7 @@ body {
 
 .menu-benefits {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   max-width: 1128px;
 }
 
@@ -227,6 +223,8 @@ body {
   padding-bottom: 120px;
   padding-top: 120px;
   background: #f4f4fd;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-title {
@@ -237,12 +235,12 @@ body {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 70px;
+  margin-bottom: 72px;
 }
 
 .menu-team {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-list {
@@ -252,8 +250,11 @@ body {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.avatar {
-  margin-bottom: 32px;
+.employee {
+  padding-top: 32px;
+  padding-left: 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-item {
@@ -263,7 +264,6 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .team-text {
@@ -273,7 +273,6 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 /* =============== PORTFOLIO =============== */
@@ -301,12 +300,11 @@ body {
   flex-wrap: wrap;
 }
 
-.portfolio-list {
+.portfolio-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
   border-bottom: 1px solid #e7e9fc;
-}
-
-.portfolio-img {
-  margin-bottom: 32px;
 }
 
 .portfolio-item {
@@ -316,7 +314,6 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding-left: 16px;
 }
 
 .portfolio-text {
@@ -325,8 +322,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
-  padding-left: 16px;
 }
 
 /* =============== FOOTER =============== */
@@ -348,6 +343,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-part {
